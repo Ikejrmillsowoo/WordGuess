@@ -129,7 +129,8 @@ public class WordGuess {
             restartGame = true;
         } else if (c == '2') {
             System.out.println("Thanks for playing!");
-            System.exit(0);
+            System.exit(0); //game exits here
         }
     }
 }
+
