@@ -44,7 +44,7 @@ public class WordGuess {
     public void announceGame() {
         System.out.println("There is a secret word that has been selected:");
         System.out.println("The game is about you guessing the word.");
-        System.out.println(wordToGuess);
+        //System.out.println(wordToGuess);
     }
 
     public char getPlayerInput(String prompt) {
@@ -101,7 +101,7 @@ public class WordGuess {
 
         boolean guessedSuccessful = isGuessedSuccessful();
         System.out.println(Arrays.toString(arr1));
-        System.out.println(wordToGuess);
+        //System.out.println(wordToGuess);
         if (guessedSuccessful && Arrays.equals(wordToGuess.toCharArray(), arr1)) {
             playerWon();
         } else if (numOfGuesses == 0) {
