@@ -3,6 +3,7 @@ package com.github.zipcodewilmington;
 import java.util.*;
 
 
+
 public class WordGuess {
 
     private String[] wordBank = {"warlike", "flawless", "please", "offer", "unknown", "silent", "jog", "record", "pinch", "lying"};
